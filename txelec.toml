@@ -1,0 +1,10 @@
+[sources]
+lmp_index = "http://mis.ercot.com/misapp/GetReports.do?reportTypeId=12300&reportTitle=LMPs%20by%20Resource%20Nodes,%20Load%20Zones%20and%20Trading%20Hubs&showHTMLView=&mimicKey"
+adders_index = "http://mis.ercot.com/misapp/GetReports.do?reportTypeId=13221&reportTitle=Real-Time%20ORDC%20and%20Reliability%20Deployment%20Price%20Adders%20and%20Reserves%20by%20SCED%20Interval&showHTMLView=&mimicKeys"
+settlement_index = "http://mis.ercot.com/misapp/GetReports.do?reportTypeId=12301&reportTitle=Settlement%20Point%20Prices%20at%20Resource%20Nodes,%20Hubs%20and%20Load%20Zones&showHTMLView=&mimicKey"
+
+[download]
+dl_root = "http://mis.ercot.com"
+
+[storage]
+enabled = true
